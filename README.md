@@ -1,5 +1,19 @@
 # Day 11 — Controlled Agent Security (2026)
 
+## Bài nộp của Lê Nguyễn Anh Khôi
+
+- Lớp K5-L3B, MSSV **2A202603755**.
+- CP4 dùng OpenAI `gpt-4o-mini`. Bonus đăng ký: **B1**.
+
+Chạy từ gốc repo bằng môi trường `.venv` đã có.
+
+```powershell
+python -X utf8 src/main.py --part 2
+python -X utf8 src/main.py --part 3
+python -X utf8 src/main.py --part 4
+python -X utf8 scripts/grade.py --submission-dir . --out outputs/grade_report.json
+```
+
 > 👤 **Hình thức:** bài tập **cá nhân** (1 người / 1 MSSV).  
 > 🎯 **Mục tiêu:** đóng vai **Blue Team** để học cách xây Guardrails phòng thủ, rồi đóng vai **Red Team** để tấn công agent **Red** hoặc **Red Advance**.  
 > ✅ Làm theo **Checkpoint 1 → 5** trong [`CHECKPOINTS.md`](CHECKPOINTS.md) · nộp theo [`SUBMISSION.md`](SUBMISSION.md).
